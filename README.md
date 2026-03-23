@@ -3,7 +3,7 @@
 ## Nombre: Alejandro Sánchez
 
 # paso 0 (si no lo tenemos)
-1,- Descargar, instalar git
+1.- Descargar, instalar git
 2.- Descargar, instalar VSC(Visual Estudio Code)
 3.- Crear un directorio y abrir VSC
 4.- Abrir la terminal y probar comandos:

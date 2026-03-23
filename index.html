@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Ejemeplo 01</title>
+</head>
+<body>
+    <!--H1 => crea un titulo, el mas importante, va desde h1 hasta h6-->
+    <h1>Primera Pagina Front End</h1>
+    <!--P => crea parrafos -->
+    <!--lorem=> genera lineas de texto de prueba-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias impedit laboriosam beatae tempora odio, blanditiis laborum quod aliquid rem ipsa corrupti debitis qui, non consequuntur ducimus commodi? Eligendi, placeat possimus.</p>
+    <!--P-->
+    <!--Lorem*10 => genera 10 lineas de texto de prueba-->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis natus quod eos, consequatur repudiandae, quam odio aut aliquid repellendus ipsam praesentium, laborum eligendi earum neque tenetur culpa ab officia explicabo?
+        Amet illo, autem a molestias eum, molestiae quia inventore sit, repellendus quas atque repellat maxime quo? Fuga eos tempore quia optio quibusdam, placeat beatae sint ex praesentium saepe nostrum non!
+        Iure molestiae enim doloribus sapiente quaerat quidem in accusamus maxime ipsa soluta reprehenderit nihil pariatur ea corrupti voluptate provident vero optio fuga deserunt a, odit eaque neque? Assumenda, laboriosam voluptatum.
+        Soluta saepe eum quos qui maiores nobis inventore reprehenderit molestiae! Mollitia perferendis delectus illo sit quibusdam totam ipsum magnam dignissimos quas ipsa nulla a ullam odio hic dolor, rem quo.
+        Reiciendis quo officiis pariatur. Aspernatur perferendis ducimus impedit non veniam explicabo veritatis tempora quo! Minus nesciunt dignissimos est culpa repellat voluptates ea voluptatibus error aliquam aut, aliquid officiis, dicta magnam?
+        Minima illum facilis voluptatibus optio, perspiciatis iste quae amet fugit maxime expedita cum facere tempore illo est culpa saepe hic at esse alias doloremque aspernatur necessitatibus labore iusto? Voluptatem, ex.
+        Dicta ex dignissimos aliquid maxime corporis. Laudantium, doloribus aut? Repellat nisi nobis voluptatum ipsum impedit rerum quam, debitis repellendus asperiores eveniet explicabo natus nulla! Reiciendis fugiat at sunt error nemo.
+        Recusandae qui accusantium delectus. Laudantium recusandae nihil saepe excepturi harum distinctio modi, quisquam iste, consequatur aperiam culpa eum ducimus at quod doloribus atque! Vero facere modi assumenda optio laudantium id!
+        Cum repellat autem dignissimos temporibus dolores! Aliquam deleniti nam iusto, facilis deserunt reprehenderit qui harum aspernatur asperiores debitis officiis tenetur praesentium architecto nulla magnam porro? Consequuntur nesciunt exercitationem amet beatae.
+        Alias, suscipit ipsam. Id, non est voluptatibus dicta voluptatum distinctio quam similique ducimus expedita, maiores ratione fugiat quae quos? Blanditiis quia sint at laudantium excepturi illo ut neque id ex!
+    </p>
+    <h2>Listado desordenado</h2>
+    <!-- ul>li*4 -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <!-- 
+        H2+ol>li*5 => el + permite agregar una etiqueta al mismo nivel que la anterior 
+                   => el > permite agregar una etiqueta dentro de la anterior
+                   => el ol genera una lista  ordenada
+    -->
+    <h2>Lista ordenada</h2>
+    <ol start="2" type="a">
+        <li>Item uno</li>
+        <li>Item dos</li>
+        <li>Item tres</li>
+        <li>Item cuatro</li>
+        <li>Item cinco</li>
+    </ol>
+    <!-- h2{Lista automatica}+ul>li*6{Elemento $} 
+        {}  => se utiliza para agregar texto dentro de la etiqueta
+        $   => se utiliza para generar numeros desde 1
+    -->
+     <h2>lista automatica</h2>
+     <!-- Control +D => para seleccionar texto igual al que ya seleccionado -->
+     <ul>
+        <li>Elemento 1 de 6</li>
+        <li>Elemento 2 de 6</li>
+        <li>Elemento 3 de 6</li>
+        <li>Elemento 4 de 6</li>
+        <li>Elemento 5 de 6</li>
+        <li>Elemento 6 de 6</li>
+     </ul>
+     <!-- div.alerta 
+        => crea una etiqueta div con clase alerta
+        => div es una etiqueta contenedora principalmente para agrupar
+    -->
+    <!-- div.alerta>p>lorem -->
+     <div class="alerta">
+        <p>Lorem <b>ipsum</b> dolor sit amet <astrong>consectetur</astrong> ipsum dolor sit amet consectetur adipisicing elit. Molestias, obcaecati optio maiores aperiam quos assumenda recusandae itaque maxime eos eligendi nostrum nobis officia iure ut. Porro nemo necessitatibus quibusdam commodi!</p>
+     </div>
+     <!-- main => se utiliza para agrupar dentro lo mas importante de la pagina -->
+     <main>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, beatae? Fuga, est reprehenderit laboriosam optio quo odit assumenda repudiandae nisi nam eaque sunt? Sit veniam culpa perspiciatis rem dolores dolorum.
+        </p>
+     </main>
+     <!-- aside => se utiliza para agregar contenido complementario -->
+     <aside>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis laboriosam, totam ab repudiandae pariatur esse omnis id provident soluta assumenda maxime? Incidunt reprehenderit nobis dolore provident debitis. Error, quia cum?</p>
+     </aside>
+     <ul>
+        <!-- 
+            a      => crea encales
+            href   => propiedad para indicar donde se dirige al hacer click
+            target => _blank para que abra en una pestaña nueva 
+        -->
+        <li><a href="https://www.youtube.com/watch?v=I4mueZ7kWTg">Youtube</a></li>
+        <li><a target="_blank" href="https://music.youtube.com/watch?v=xqJVFc5MuGo">Youtube music</a></li>
+        <li><a href="https://deltaforcetools.gg/weapon-builds?page=1&server_region=Infinity&weapon=SG552">Delta force</a></li>
+        <li><a href="#">volver</a></li>
+     </ul>
+</body>
+</html>
