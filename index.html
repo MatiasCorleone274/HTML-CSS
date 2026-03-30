@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Ejemeplo 01</title>
+    <style>
+        h1{
+            background-color: blueviolet;
+        }
+        p{
+            border: 3px solid red;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--ul>li*5>a-->
+    <ul>
+        <li><a href="#Primera_pagina">Primera pagina</a></li> 
+        <li><a href="#ul">Lista desordenada</a></li>
+        <li><a href="#ol">Lista ordenada</a></li>
+        <li><a href="#al">Lista automatica</a></li>
+        <li><a href="#ll">Lista de enlaces</a></li>
+    </ul>
     <!--H1 => crea un titulo, el mas importante, va desde h1 hasta h6-->
-    <h1>Primera Pagina Front End</h1>
+    <h1 id="Primera_pagina">Primera Pagina Front End</h1>
+    <a href="index.html">Volver</a>
     <!--P => crea parrafos -->
     <!--lorem=> genera lineas de texto de prueba-->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias impedit laboriosam beatae tempora odio, blanditiis laborum quod aliquid rem ipsa corrupti debitis qui, non consequuntur ducimus commodi? Eligendi, placeat possimus.</p>
@@ -25,32 +43,34 @@
         Cum repellat autem dignissimos temporibus dolores! Aliquam deleniti nam iusto, facilis deserunt reprehenderit qui harum aspernatur asperiores debitis officiis tenetur praesentium architecto nulla magnam porro? Consequuntur nesciunt exercitationem amet beatae.
         Alias, suscipit ipsam. Id, non est voluptatibus dicta voluptatum distinctio quam similique ducimus expedita, maiores ratione fugiat quae quos? Blanditiis quia sint at laudantium excepturi illo ut neque id ex!
     </p>
-    <h2>Listado desordenado</h2>
+    <h2 id="ul">Listado desordenado</h2>
     <!-- ul>li*4 -->
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
         <li>Item 4</li>
+        <a href="index.html">Volver</a>
     </ul>
     <!-- 
         H2+ol>li*5 => el + permite agregar una etiqueta al mismo nivel que la anterior 
                    => el > permite agregar una etiqueta dentro de la anterior
                    => el ol genera una lista  ordenada
     -->
-    <h2>Lista ordenada</h2>
+    <h2 id="ol">Lista ordenada</h2> 
     <ol start="2" type="a">
         <li>Item uno</li>
         <li>Item dos</li>
         <li>Item tres</li>
         <li>Item cuatro</li>
         <li>Item cinco</li>
+        <a href="index.html">Volver</a>
     </ol>
     <!-- h2{Lista automatica}+ul>li*6{Elemento $} 
         {}  => se utiliza para agregar texto dentro de la etiqueta
         $   => se utiliza para generar numeros desde 1
     -->
-     <h2>lista automatica</h2>
+     <h2 id="al">lista automatica</h2>
      <!-- Control +D => para seleccionar texto igual al que ya seleccionado -->
      <ul>
         <li>Elemento 1 de 6</li>
@@ -59,6 +79,7 @@
         <li>Elemento 4 de 6</li>
         <li>Elemento 5 de 6</li>
         <li>Elemento 6 de 6</li>
+         <a href="index.html">Volver</a>
      </ul>
      <!-- div.alerta 
         => crea una etiqueta div con clase alerta
@@ -84,10 +105,13 @@
             href   => propiedad para indicar donde se dirige al hacer click
             target => _blank para que abra en una pestaña nueva 
         -->
+    <h2 id="ll">lista de enlace</h2>
         <li><a href="https://www.youtube.com/watch?v=I4mueZ7kWTg">Youtube</a></li>
         <li><a target="_blank" href="https://music.youtube.com/watch?v=xqJVFc5MuGo">Youtube music</a></li>
         <li><a href="https://deltaforcetools.gg/weapon-builds?page=1&server_region=Infinity&weapon=SG552">Delta force</a></li>
-        <li><a href="#">volver</a></li>
+        <li><a href="personajes.html">Ver Personajes</a></li>
+        <li><a href="productos/figuras.html">Ver Figuras</a></li>
      </ul>
+     <h5><a href="#menu">Volver</a></h5>
 </body>
 </html>
