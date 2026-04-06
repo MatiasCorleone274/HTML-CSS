@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+main{
+    padding: 0px    200px;
+}
+p{
+    padding: 30px;
+    border-radius: 15px;
+    background-color: beige;
+    text-align: justify;
+    text-shadow: 2px    2px 5px lightgrey,  -2px -2px 5px lightgrey, 2px -2px 5px lightgrey, -2px 2px 5px lightgrey;
+    font-size: 20px;
+}
+header{ 
+    background-color: black;
+}
+nav ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul{
+    padding: 20px;
+}
+nav ul li:hover{
+    background-color: grey;
+}
+heeader ul a{
+    color: brown;
+    text-decoration:  none;
+    font-size: 20px;
+}
+.p2{
+    background-image: url(../imagenes/Luna.jpg),url(../imagenes/tempest.jpg);
+    background-size: 171px, 190px;
+    background-repeat: no-repeat;
+    padding:100px;
+    background-position: top left, top right;
+    box-shadow: 10px 10px 15px rgb(144, 0, 255), -10px -10px 15px rgb(144, 0, 255),-10px 10px 15px rgb(144, 0, 255),10px -10px 15px rgb(144, 0, 255); 
+    /* box-shadow: 3px 3px 15px rgb(144, 0, 255); -> agregar un borde tipo sombra  */ 
+}
